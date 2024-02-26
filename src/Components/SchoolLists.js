@@ -4,9 +4,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-
+// SchoolLists Component will render the school Lists and each accordion is shown for each school with schools name and details
 const SchoolLists = ({ schools }) => {
-
     const styleAccordion = {
         padding: "100px",
         height: "300px",

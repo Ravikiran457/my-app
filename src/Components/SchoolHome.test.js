@@ -75,11 +75,11 @@ test('SchoolHome component', () => {
 ];
 
 render(<SchoolHome />);
-jest.mock('', () => ({
-  useFetch: () => {
-       return mockData;
-   },
-}));
+// jest.mock('', () => ({
+//   useFetch: () => {
+//        return mockData;
+//    },
+// }));
 const ele = screen.queryAllByTestId('display-schools');
 expect(ele).toBeInTheDocument();
 });
